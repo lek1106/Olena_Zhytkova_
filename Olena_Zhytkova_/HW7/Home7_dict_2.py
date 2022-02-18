@@ -1,0 +1,7 @@
+first_set=set(str(input('Enter text 1: ')))
+second_set=set(str(input('Enter text 2: ')))
+print(*sorted(first_set))
+print(*sorted(second_set))
+print(*sorted(first_set&second_set))
+print(*sorted(first_set-second_set))
+print(*sorted(second_set-first_set))
